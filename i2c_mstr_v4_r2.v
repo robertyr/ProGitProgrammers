@@ -119,35 +119,35 @@ integer f_handle = 0 ;
    parameter       wr_c_addr = {dev_add, upper_addrc, wr};
    parameter       wr_d_addr = {dev_add, upper_addrd, wr};
    
-  parameter    		i2c_reg0 = 8'h0 ;
-  parameter    		i2c_reg1 = 8'h1 ;
-  parameter    		i2c_reg2 = 8'h2 ;  
-  parameter    		i2c_reg3 = 8'h3 ; 
-  parameter    		i2c_reg4 = 8'h4 ;
-  parameter    		i2c_reg5 = 8'h5 ;
-  parameter    		i2c_reg6 = 8'h6 ;
-  parameter    		i2c_reg7 = 8'h7 ;
-  parameter    		i2c_reg8 = 8'h8 ;
-  
-  parameter    		i2c_reg22 = 8'h22 ; 
-   parameter    	i2c_reg10 = 8'h10 ;
-   parameter    	i2c_reg12 = 8'h12 ;   
-  parameter    		i2c_reg50 = 8'h50 ;  
-  parameter    		i2c_reg34 = 8'h34 ; 
-   
-   parameter       wr_a_addrl = 8'h01;
-   parameter       wr_b_addrl = 8'h02;
-   parameter       wr_c_addrl = 8'h03;
-   parameter       wr_d_addrl = 8'h04;
-
-   parameter       wr_a_data = 8'h31;
-   parameter       wr_b_data = 8'h02;
-   parameter       wr_c_data = 8'hc0;
-   parameter       wr_d_data = 8'h01; 
-   parameter       wr_e_data = 8'h04; 
-   parameter       wr_f_data = 8'h00; 
-   parameter       wr_g_data = 8'h77; 
-   parameter       wr_h_data = 8'h88; 
+//  parameter    		i2c_reg0 = 8'h0 ;
+//  parameter    		i2c_reg1 = 8'h1 ;
+//  parameter    		i2c_reg2 = 8'h2 ;  
+//  parameter    		i2c_reg3 = 8'h3 ; 
+//  parameter    		i2c_reg4 = 8'h4 ;
+//  parameter    		i2c_reg5 = 8'h5 ;
+//  parameter    		i2c_reg6 = 8'h6 ;
+//  parameter    		i2c_reg7 = 8'h7 ;
+//  parameter    		i2c_reg8 = 8'h8 ;
+//  
+//  parameter    		i2c_reg22 = 8'h22 ; 
+//   parameter    	i2c_reg10 = 8'h10 ;
+//   parameter    	i2c_reg12 = 8'h12 ;   
+//  parameter    		i2c_reg50 = 8'h50 ;  
+//  parameter    		i2c_reg34 = 8'h34 ; 
+//   
+//   parameter       wr_a_addrl = 8'h01;
+//   parameter       wr_b_addrl = 8'h02;
+//   parameter       wr_c_addrl = 8'h03;
+//   parameter       wr_d_addrl = 8'h04;
+//
+//   parameter       wr_a_data = 8'h31;
+//   parameter       wr_b_data = 8'h02;
+//   parameter       wr_c_data = 8'hc0;
+//   parameter       wr_d_data = 8'h01; 
+//   parameter       wr_e_data = 8'h04; 
+//   parameter       wr_f_data = 8'h00; 
+//   parameter       wr_g_data = 8'h77; 
+//   parameter       wr_h_data = 8'h88; 
 
  reg [143:0] data_in_v ;
  reg [7:0] reg_addr ; 
